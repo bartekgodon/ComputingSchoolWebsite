@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us - School of Computing and Digital Media</title>
+    <link rel="stylesheet" href="CSS/MainStyleSheet.css">
+    <link rel="stylesheet" href="CSS/Contact Us.css">
+</head>
+<body>
+<section>
+
+    <div id = "divider"></div>
+
+    <div id = "divider1"></div>
+
+    <!-- Alternating Image Banner (start) -->
+
+    <script type = "text/javascript">
+        function displayNextImage() {
+            x = (x === images.length - 1) ? 0 : x + 1;
+            document.getElementById("banner").src = images[x];
+        }
+
+        function displayPreviousImage() {
+            x = (x <= 0) ? images.length - 1 : x - 1;
+            document.getElementById("banner").src = images[x];
+        }
+
+        function startTimer() {
+            setInterval(displayNextImage, 2000);
+        }
+
+        var images = [], x = -1;
+        images[0] = "Assets/banner1.jpg";
+        images[1] = "Assets/banner2.jpg";
+        images[2] = "Assets/banner3.jpg";
+    </script>
+
+    <body onload = "startTimer()">
+    <img id="banner" src="Assets/banner1.jpg" />
+    </body>
+
+    <!-- Alternating Image Banner (End) -->
+
+    <img id="logo" src = "Assets/logo.png" alt="">
+
+    <h1>The School of Computing and Digital Media</h1>
+
+    <!--Sidebar Navigation (start) -->
+
+    <div id ="sidebarnav"></div>
+
+    <h2><a href="Home.html">Home </a></h2>
+
+    <div id = "sidebutton1"></div>
+
+    <h2><a href="About Us.html" >About Us</a></h2>
+
+    <div id = "sidebutton2"></div>
+
+    <h2><a href="Undergraduate Courses.html">Undergraduate Courses</a></h2>
+
+    <div id = "sidebutton3"></div>
+
+    <h2><a href="Postgraduate Courses.html">Postgraduate Courses</a></h2>
+
+    <div id = "sidebutton4"></div>
+
+    <h2><a href="News.html">News</a></h2>
+
+    <div id = "sidebutton5"></div>
+
+    <h2><a href="Internship Page.html">Internships</a></h2>
+
+    <div id = "sidebutton6"></div>
+
+    <!--Sidebar Navigation (end) -->
+
+    <!-- Footer (start)-->
+
+    <div id = "footer"></div>
+
+
+
+    <a href="https://www.facebook.com/robertgordonuniversity" target="_blank"><img id = facebook src = "Assets/facebook.png"></a>
+
+    <a href="https://twitter.com/RobertGordonUni" target="_blank"><img id = twitter src = "Assets/twitter.png"></a>
+
+    <a href="https://www.instagram.com/robertgordonuni/" target="_blank"><img id = instagram src = "Assets/instagram.png"></a>
+
+    <!--Footer (end) -->
+
+    <div id = "contactDetails">
+
+        <h3>Contact Details</h3>
+
+        <p><b>Our address details: </b><br> Robert Gordon University, <br> Garthdee House, <br> Garthdee Road, <br> Aberdeen, <br>AB10 7QB</p>
+
+        <p><b>The main telephone number for our university is:</b><br>01224 262000 when dialling within the UK<br>+44 1224 262000 when dialling internationally</p>
+
+
+    </div>
+
+    <div id = "getDirections">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2166.0905207161954!2d-2.1432107840159933!3d57.11841608094051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488410483d2f0941%3A0x5d8969688e77366a!2sRobert+Gordon+University+Aberdeen%2C+Garthdee+Campus!5e0!3m2!1sen!2suk!4v1481102794908" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+
+    <div id = "socialMedia">
+
+        <h3>Follow us on our Social Media sites:</h3>
+
+        <a href="https://www.facebook.com/robertgordonuniversity" target="_blank"><img id = face src = "Assets/facebook.png"></a>
+
+        <a href="https://twitter.com/RobertGordonUni" target="_blank"><img id = twit src = "Assets/twitter.png"></a>
+
+        <a href="https://www.instagram.com/robertgordonuni/" target="_blank"><img id = insta src = "Assets/instagram.png"></a>
+
+
+    </div>
+    </section>
+</body>
+</html>

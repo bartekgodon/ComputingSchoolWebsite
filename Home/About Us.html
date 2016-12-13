@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us - School Of Computing and Digital Media</title>
+    <link rel="stylesheet" href="CSS/MainStyleSheet.css">
+    <link rel="stylesheet" type = "text/css" href = "CSS/About Us CSS.css" />
+
+</head>
+<body>
+<section>
+
+    <div id = "divider"></div>
+
+    <div id = "divider1"></div>
+
+    <!-- Alternating Image Banner (start) -->
+
+    <script type = "text/javascript">
+        function displayNextImage() {
+            x = (x === images.length - 1) ? 0 : x + 1;
+            document.getElementById("banner").src = images[x];
+        }
+
+        function displayPreviousImage() {
+            x = (x <= 0) ? images.length - 1 : x - 1;
+            document.getElementById("banner").src = images[x];
+        }
+
+        function startTimer() {
+            setInterval(displayNextImage, 2000);
+        }
+
+        var images = [], x = -1;
+        images[0] = "Assets/banner1.jpg";
+        images[1] = "Assets/banner2.jpg";
+        images[2] = "Assets/banner3.jpg";
+    </script>
+
+    <body onload = "startTimer()">
+    <img id="banner" src="Assets/banner1.jpg" />
+    </body>
+
+    <!-- Alternating Image Banner (End) -->
+
+    <img id="logo" src = "Assets/logo.png" alt="">
+
+    <h1>The School of Computing and Digital Media</h1>
+
+    <!--Sidebar Navigation (start) -->
+
+    <div id ="sidebarnav"></div>
+
+    <h2><a href="Home.html">Home </a></h2>
+
+    <div id = "sidebutton1"></div>
+
+    <h2><a href="Undergraduate Courses.html" >Undergraduate Courses</a></h2>
+
+    <div id = "sidebutton2"></div>
+
+    <h2><a href="Postgraduate Courses.html">Postgraduate Courses</a></h2>
+
+    <div id = "sidebutton3"></div>
+
+    <h2><a href="News.html">News </a></h2>
+
+    <div id = "sidebutton4"></div>
+
+    <h2><a href="Internship%20Page.html">Internships </a></h2>
+
+    <div id = "sidebutton5"></div>
+
+    <h2><a href="Contact Us.html">Contact Us</a></h2>
+
+    <div id = "sidebutton6"></div>
+
+    <!--Sidebar Navigation (end) -->
+
+    <!-- Footer (start)-->
+
+    <div id = "footer"></div>
+
+    <a href="https://www.facebook.com/robertgordonuniversity" target="_blank"><img id = facebook src =
+            "Assets/facebook.png"></a>
+
+    <a href="https://twitter.com/RobertGordonUni" target="_blank"><img id = twitter src = "Assets/twitter.png"></a>
+
+    <a href="https://www.instagram.com/robertgordonuni/"
+       target="_blank"><img id = instagram src = "Assets/instagram.png"></a>
+
+    <!--Footer (end) -->
+
+    <div id = "aboutUniversity">
+
+        <h3>About our University...</h3>
+
+        <p>
+            Robert Gordon University is a dynamic, modern place to study with an international reputation for providing high quality education from undergraduate through to PhD.
+            <br><br>
+            The university is consistently ranked among the UK's top universities for graduate employment for many years, recent accolades have included:<br>
+        </p>
+
+        <ul>
+            <li>Top university for graduate jobs in the UK-  HESA July 2015</li>
+            <li>‘Best Modern University in the UK' - The Times Good University Guide 2012</li>
+            <li>Top university in Scotland for Health Professions, Journalism, Architecture and Pharmacy. Top for graduate prospects – Guardian University Guide 2017</li>
+        </ul>
+
+        <p>
+            Our diverse and exciting range of degree programmes are taught in state-of-the-art facilities by specialists who maintain close links with the world of work.
+        </p>
+
+        <p>
+            Well-established relationships with professional bodies, industrial organisations, government departments and research institutes ensure that all taught content is relevant and meets industry standards.
+        </p>
+
+        <p>
+            The majority of our courses enable part-time study, with an increasing number also available via distance learning.
+        </p>
+
+        <p>
+            Our growing reputation for research reflects our interest in finding real solutions to real problems experienced by businesses and other organisations.
+        </p>
+
+    </div>
+
+    <div id = "aboutSchoolOfComputing">
+        <h3>About the School of Computing and Digital Media...</h3>
+
+        <p>
+            The School of Computing Science and Digital Media courses develop skills and expertise for a wide range of computing technologies and target applications.
+        </p>
+
+        <p>
+            The School  has an excellent reputation for its innovative and practical approaches to teaching and learning.
+            For generations it has produced qualified professionals across a broad spectrum of technical careers with graduates in high profile, international roles.
+        </p>
+
+        <p>
+            Our applied approach to the subject ensures our graduate employment rate remains one of the best in the UK.
+            We have recently been recognised as the best new university in the UK for computing (Times Good University Guide 2009 and 2010).
+            Our courses are recognised by the BCS – the Chartered Institute for IT.
+        </p>
+
+        <p>
+            Strong links with industry ensure that courses are constantly updated plus many are introduced as a direct response to changes in the marketplace.
+            Our world-class research is often in direct collaboration with industry, including major oil, pharmaceutical, and software companies.
+        </p>
+    </div>
+
+    <div id = "mediaContent">
+
+        <div id = "pictures">
+            <img src="http://robbymcrobb.ca/files/2016/04/RGUBbmediumoriginalaspectdouble.jpg" alt="RGU" style="width:480px;height:315px;top:10px;position:absolute;border-radius: 15px 50px 30px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);left:10px;">
+
+            <img src="http://choose.rgu.ac.uk/wp-content/uploads/2016/02/Study-at-Robert-Gordon-University.jpg" alt="RGU" style="width:400px;height:300px;left:175px;top:290px;position:absolute;border-radius: 15px 50px 30px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+
+            <img src="http://choose.rgu.ac.uk/wp-content/uploads/2016/03/Computing-and-Digital-Marketing-at-Robert-Gordon-University.png" alt="RGU" style="width:350px;height:280px;top:550px;position:absolute;border-radius: 15px 50px 30px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);left:75px;">
+
+        </div>
+
+    </div>
+
+    </section>
+
+</body>
+</html>

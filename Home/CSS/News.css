@@ -1,0 +1,157 @@
+#news{
+    position:absolute;
+    top:525px;
+    left:450px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#footer{
+    top:2000px;
+}
+
+#instagram{
+    top:2030px;
+}
+
+#facebook{
+    top:2030px;
+}
+
+#twitter{
+    top:2030px;
+}
+
+h3 {
+    position: absolute;
+    color: white;
+    font-family: Tahoma;
+    font-size: 25px;
+    letter-spacing: 2px;
+    width: 500px;
+    top:480px;
+    left:460px;
+    background: purple;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p {
+    top:-30px;
+    position: relative;
+    background: white;
+    font-size: 16px;
+    width: 700px;
+    margin-left:10px;
+    font-family:Tahoma;
+    margin-right:10px;
+}
+
+ul{
+    position: relative;
+    background: white;
+    font-style: Inherit;
+    font-size: 14px;
+    width: 450px;
+    top:-40px;
+    margin-left:10px;
+    margin-right:10px;
+    font-family:Tahoma;
+}
+
+#article{
+    position:absolute;
+    top:580px;
+    left:450px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#article1{
+    position:absolute;
+    left:450px;
+    top:760px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#article2{
+    position:absolute;
+    left:450px;
+    top:1000px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#article3{
+    position:absolute;
+    left:450px;
+    top:1250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#article4{
+    position:absolute;
+    left:450px;
+    top:1500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#article5{
+    position:absolute;
+    left:450px;
+    top:1750px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#twitter-feed{
+    position:absolute;
+    left: 1270px;
+    top:625px;
+}
+
+#youtube{
+    position:absolute;
+    left: 1270px;
+    top:1325px;
+}
+
+iframe{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h6 {
+    top:0px;
+    position: relative;
+    background: white;
+    font-size: 20px;
+    width: 700px;
+    margin-left:10px;
+    font-family:Tahoma;
+    margin-right:10px;
+}
+
+h4 {
+    position: absolute;
+    color: white;
+    font-family: Tahoma;
+    font-size: 25px;
+    letter-spacing: 2px;
+    width: 600px;
+    top:550px;
+    left:1270px;
+    background: purple;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h5 {
+    position: absolute;
+    color: white;
+    font-family: Tahoma;
+    font-size: 25px;
+    letter-spacing: 2px;
+    width: 600px;
+    top: 1245px;
+    left: 1270px;
+    background: purple;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+

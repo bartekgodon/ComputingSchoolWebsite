@@ -1,0 +1,76 @@
+#footer{
+    top:1550px;
+}
+
+#instagram{
+    top:1580px;
+}
+
+#facebook{
+    top:1580px;
+}
+
+#twitter{
+    top:1580px;
+}
+#aboutUniversity{
+    position:absolute;
+    top:525px;
+    left:450px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h3 {
+    position: relative;
+    color: white;
+    font-family: Tahoma;
+    font-size: 25px;
+    letter-spacing: 2px;
+    width: 500px;
+    top:-35px;
+    left:10px;
+    background: purple;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p {
+    top:-40px;
+    position: relative;
+    background: white;
+    font-size: 16px;
+    width: 800px;
+    margin-left:10px;
+    font-family:Tahoma;
+    margin-right:10px;
+}
+
+ul{
+    position: relative;
+    background: white;
+    font-style: Inherit;
+    font-size: 14px;
+    width: 650px;
+    top:-40px;
+    margin-left:10px;
+    margin-right:10px;
+    font-family:Tahoma;
+}
+
+#aboutSchoolOfComputing{
+    position:absolute;
+    left:450px;
+    top:1075px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#mediaContent{
+    position:absolute;
+    left: 1300px;
+    top:525px;
+}
+
+iframe{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+

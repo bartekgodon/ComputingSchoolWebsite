@@ -1,0 +1,189 @@
+
+#divider{
+    height: 10px;
+    background: purple;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    right: 10px;
+}
+
+#divider1{
+    height: 10px;
+    background: purple;
+    position: absolute;
+    left: 10px;
+    top: 475px;
+    right: 10px;
+}
+
+#banner{
+    top: 25px;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    height: 450px;
+    width: 1883px;
+}
+
+#logo {
+    width: 600px;
+    height: 90px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+h1 {
+    position: relative;
+    color: white;
+    font-family: Tahoma;
+    font-size: 45px;
+    letter-spacing: 2px;
+    left: 780px;
+    top: 275px;
+    width:1105px;
+    background: purple;
+    text-align:center;
+}
+
+#sidebarnav {
+    position: absolute;
+    top: 500px;
+    left: 10px;
+    width: 350px;
+    height: 500px;
+    background: linear-gradient(135deg,dimgrey, lightgrey);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#sidebutton1{
+    position: absolute;
+    width: 15px;
+    height: 40px;
+    top: 520px;
+    left: 20px;
+    background: linear-gradient(to bottom right,seagreen,lightseagreen);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+#sidebutton2{
+    position: absolute;
+    width: 15px;
+    height: 40px;
+    top: 590px;
+    left: 20px;
+    background: linear-gradient(to bottom right, royalblue, steelblue);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+#sidebutton3{
+    position: absolute;
+    width: 15px;
+    height: 40px;
+    top: 660px;
+    left: 20px;
+    background: linear-gradient(to bottom right,darkslategrey,lightslategrey);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+#sidebutton4{
+    position: absolute;
+    width: 15px;
+    height: 40px;
+    top: 730px;
+    left: 20px;
+    background: linear-gradient(to bottom right,goldenrod,gold);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+#sidebutton5{
+    position: absolute;
+    width: 15px;
+    height: 40px;
+    top: 800px;
+    left: 20px;
+    background: linear-gradient(to bottom right,purple,mediumpurple);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+#sidebutton6{
+    position: absolute;
+    width: 15px;
+    height: 40px;
+    top: 870px;
+    left: 20px;
+    background: linear-gradient(to bottom right,green,limegreen);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+h2{
+    top: 298px;
+    left: 40px;
+    position: relative;
+    color: purple;
+    font-family: Tahoma;
+    margin-bottom: 46px;
+    font-size: 20px;
+    width: 280px;
+}
+
+h2:hover {
+    text-shadow: 0 0 5px white;
+}
+a:active{
+    text-decoration: none; color: purple;
+}
+a:link{
+    text-decoration: none; color: purple;
+}
+a:visited{
+    text-decoration: none; color: purple;
+}
+
+#footer{
+    position: absolute;
+    top:1200px;
+    left: 10px;
+    width: 1883px;
+    height: 90px;
+    margin-bottom:10px;
+    background: linear-gradient(135deg,dimgrey, lightgrey);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#facebook{
+    position: absolute;
+    top:1230px;
+    left: 886px;
+    width:30px;
+    height:30px;
+}
+
+#twitter{
+    position: absolute;
+    top:1230px;
+    left: 926px;
+    width:30px;
+    height:30px;
+}
+
+#instagram{
+    position: absolute;
+    top:1230px;
+    left: 966px;
+    width:30px;
+    height:30px;
+}
+
+#instagram:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+#facebook:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+#twitter:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}

@@ -1,0 +1,217 @@
+#footer{
+    top:1500px;
+}
+
+#instagram{
+    top:1530px;
+}
+
+#facebook{
+    top:1530px;
+}
+
+#twitter{
+    top:1530px;
+}
+
+#undergrad{
+    position:absolute;
+    top:525px;
+    left:450px;
+
+}
+
+p {
+    top:-40px;
+    left:0px;
+    position: relative;
+    background: white;
+    font-size: 16px;
+    width: 680px;
+    margin-left:10px;
+    font-family:Tahoma;
+    margin-right:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height:100px;
+}
+
+h3 {
+    position: relative;
+    color: white;
+    font-family: Tahoma;
+    font-size: 25px;
+    letter-spacing: 2px;
+    width: 500px;
+    top:-35px;
+    left:10px;
+    background: purple;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#extraButton1{
+    position:absolute;
+    background: purple;
+    left:560px;
+    top:115px;
+    font-family: Tahoma;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#extra1{
+    position: absolute;
+    background: linear-gradient(135deg,dimgrey, lightgrey);
+    opacity:0;
+    visibility:hidden;
+    width:680px;
+    left:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    top:150px;
+    -webkit-transition: all 500ms ease-in-out;
+    font-family: Tahoma;
+    z-index:+1;
+    height:175px;
+}
+
+#extraButton1:hover+#extra1{
+    opacity:1;
+    visibility:visible;
+}
+
+#extraButton2{
+    position:absolute;
+    background: purple;
+    left:560px;
+    top:295px;
+    font-family: Tahoma;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#extra2{
+    position: absolute;
+    background: linear-gradient(135deg,dimgrey, lightgrey);
+    opacity:0;
+    visibility:hidden;
+    width:680px;
+    left:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    top:330px;
+    -webkit-transition: all 500ms ease-in-out;
+    font-family: Tahoma;
+    z-index:+1;
+    height:175px;
+}
+
+
+#extraButton2:hover+#extra2{
+    opacity:1;
+    visibility:visible;
+}
+
+#extraButton3{
+    position:absolute;
+    background: purple;
+    left:560px;
+    top:475px;
+    font-family: Tahoma;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#extra3{
+    position: absolute;
+    background: linear-gradient(135deg,dimgrey, lightgrey);
+    opacity:0;
+    visibility:hidden;
+    width:680px;
+    left:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    top:510px;
+    -webkit-transition: all 500ms ease-in-out;
+    font-family: Tahoma;
+    z-index:+1;
+    height:175px;
+}
+
+
+#extraButton3:hover+#extra3{
+    opacity:1;
+    visibility:visible;
+}
+
+#extraButton4{
+    position:absolute;
+    background: purple;
+    left:560px;
+    top:655px;
+    font-family: Tahoma;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#extra4{
+    position: absolute;
+    background: linear-gradient(135deg,dimgrey, lightgrey);
+    opacity:0;
+    visibility:hidden;
+    width:680px;
+    left:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    top:690px;
+    -webkit-transition: all 500ms ease-in-out;
+    font-family: Tahoma;
+    z-index:+1;
+    height:175px;
+}
+
+
+#extraButton4:hover+#extra4{
+    opacity:1;
+    visibility:visible;
+}
+
+#youtube{
+    position:absolute;
+    left: 1240px;
+    top:565px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 1;
+    visibility: visible;
+    width:560px;
+}
+
+#importanceofintern{
+    position: absolute;
+    left:1175px;
+    top:525px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: linear-gradient(135deg,dimgrey, lightgrey);
+}
+
+#joinUndergrad{
+    position:absolute;
+    left:1225px;
+    top:560px;
+}
+
+#studyUndergrad{
+    position: relative;
+    color: white;
+    font-family: Tahoma;
+    font-size: 20px;
+    letter-spacing: 2px;
+    width: 600px;
+    background: linear-gradient(135deg,dimgrey, lightgrey);
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+

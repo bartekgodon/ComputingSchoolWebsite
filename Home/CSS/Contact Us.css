@@ -1,0 +1,101 @@
+#footer{
+    top:1250px;
+}
+
+#instagram{
+    top:1280px;
+}
+
+#facebook{
+    top:1280px;
+}
+
+#twitter{
+    top:1280px;
+}
+
+#contactDetails{
+    position:absolute;
+    top:525px;
+    left:425px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p {
+    top: -40px;
+    position: relative;
+    background: white;
+    font-size: 16px;
+    width: 800px;
+    margin-left: 10px;
+    font-family: Tahoma;
+    margin-right: 10px;
+}
+
+#getDirections{
+    position:absolute;
+    top:525px;
+    left:1275px;
+    width:250px;
+    height:250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h3 {
+    position: relative;
+    color: white;
+    font-family: Tahoma;
+    font-size: 25px;
+    letter-spacing: 2px;
+    width: 600px;
+    top:-35px;
+    left:10px;
+    background: purple;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#socialMedia{
+    position:absolute;
+    left:425px;
+    top:850px;
+    width:820px;
+    height:250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#face{
+    position: absolute;
+    top:75px;
+    left: 200px;
+    width:100px;
+    height:100px;
+}
+
+#twit{
+    position: absolute;
+    top:75px;
+    left: 350px;
+    width:100px;
+    height:100px;
+}
+
+#insta{
+    position: absolute;
+    top:75px;
+    left: 500px;
+    width:100px;
+    height:100px;
+}
+
+#insta:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+#face:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+#twit:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
